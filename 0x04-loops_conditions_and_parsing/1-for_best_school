@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#task 0
 for {1..10}
 do
  "Best School"
