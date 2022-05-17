@@ -1,9 +1,8 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 #mikey 
 x=1
 until [ $x -gt 10 ]
 do 
  echo "Best School"
-x=$
-(( x + 1 ))
+x=$(( x + 1 ))
 done
