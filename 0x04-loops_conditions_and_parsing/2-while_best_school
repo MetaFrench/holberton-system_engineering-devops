@@ -1,7 +1,7 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 #made
 x=1
-while [ $x -le 10 ]
+while [ x -le 10 ]
 do
  echo "Best School"
  x=$(( $x + 1 ))
