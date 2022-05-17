@@ -1,4 +1,5 @@
 #!/user/bin/env bash
+#mike check 
 x=1
 until [ $x -gt 10 ]
 do 
