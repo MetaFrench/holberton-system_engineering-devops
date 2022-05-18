@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-hello again
-echo $$; exec /path/to/my-command
+# hello again
+echo $$
