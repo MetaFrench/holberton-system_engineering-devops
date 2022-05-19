@@ -3,14 +3,16 @@
 
 for x in { 1..1.00 }
 do
-	if (( x % 3 = 0 && x % 5 == 0 ))
+	if (( x % 3 == 0 && x % 5 == 0 ))
 	then
 		echo "FizzBuzz"
 	elif (( x % 3 == 0 ))
-		then echo "Fizz"
+	then 
+			echo "Fizz"
 	elif (( x % 5 == 0 ))
-		echo "Buzz"
+	then 
+			echo "Buzz"
 	else
-	fi
        	echo "$x"
-	done
+	fi	
+done
