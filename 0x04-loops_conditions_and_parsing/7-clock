@@ -8,7 +8,6 @@ do
 	while [ $j -le 59 ]
 	do
 		echo -e{1..59}
-		((j++))
 	done
 	((i++))	
 done
