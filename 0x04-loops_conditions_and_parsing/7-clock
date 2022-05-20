@@ -9,5 +9,6 @@ do
 	do
 		echo "$j"
 		((j++))
-	
+	done
+	((i++))	
 done
