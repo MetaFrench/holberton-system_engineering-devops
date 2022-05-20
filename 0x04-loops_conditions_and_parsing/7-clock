@@ -7,7 +7,7 @@ do
 	j=1
 	while [ $j -le 59 ]
 	do
-		echo "$j"
+		echo -e{1..59}
 		((j++))
 	done
 	((i++))	
